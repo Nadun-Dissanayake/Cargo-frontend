@@ -1,0 +1,266 @@
+.home-page{
+    margin: 0px 100px;
+}
+
+/*-----------------Navigatin Bar-----------------*/
+
+#hero-section .navbar .logo{
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+#hero-section .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+
+}
+
+#hero-section .navbar .navigations {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+}
+
+#hero-section .navbar .navigations ul{
+    display: flex;
+    flex-direction: row;
+    border-left: 4px solid #FFBF18;
+    height: 35px;
+    align-items: center;
+}
+
+.btn-quote{
+    height: 50px;
+    padding: 0px 30px;
+    cursor: pointer;
+    background-color: #FFBF18;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#hero-section .navbar .navigations .btn-sign-in{
+    height: 50px;
+    margin-left: 20px;
+    padding: 0px 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+#hero-section .navbar .navigations ul li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+#hero-section .navbar .navigations ul li .btn-01{
+    margin-left: -70px;
+}
+
+#hero-section .navbar .navigations ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#hero-section .navbar .navigations ul li a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+/*-----------------Navigatin Bar-----------------*/
+
+#hero-section .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#hero-section .content .conten-text{
+    background-color: white;
+    width: 750px;
+    height: 550px;
+    position: absolute;
+}
+
+#hero-section .content .conten-text .logistic{
+    letter-spacing: 5px;
+    border-left: 4px solid #FFBF18;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#hero-section .content .conten-text .best-shpping{
+    font-size: 70px;
+    margin-top: 0px;
+}
+
+#hero-section .content .conten-text .partner{
+    font-size: 70px;
+    margin-top: -70px;
+    color: #FFBF18;
+    font-weight: 700;
+}
+
+#hero-section .content .conten-text button{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+#hero-section .content .conten-text .description{
+    width: 700px;
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+#hero-section .content .conten-img{
+    margin-left: 670px;
+}
+
+#hero-section .content .conten-img img{
+    width: 950px;
+    height: 750px;
+    justify-content: end;
+    display: flex;
+    align-items: end;
+    object-fit: cover;
+}
+
+
+/*-----------------Welcom Sexction-----------------*/
+
+#welcome-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#welcome-section .img-content{
+    position: relative;
+    width: 50%;
+    margin-top: 200px;
+    justify-content: end;
+    display: flex;
+    margin-left: -100px;
+}
+
+#welcome-section .img-content .stock-checking{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+}
+
+#welcome-section .img-content .loading{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 200px;
+    right: 400px;
+    object-fit: cover;
+}
+
+#welcome-section .text-content {
+    width: 700px;
+    margin-top: 200px;
+}
+
+#welcome-section .text-content .text-01{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#welcome-section .text-content .text-02{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -40px;
+}
+
+#welcome-section .text-content .text-02 span{
+    color: #FF8E2B;
+} 
+
+#welcome-section .text-content .text-03{
+    width: 600px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#welcome-section .text-content .text-04{
+    width: 600px;
+    font-weight: 600px;
+    font-size: 19px;
+}
+
+#welcome-section .text-content .text-button .more-about-us{
+    height: 50px;
+    padding: 0px 30px;
+    cursor: pointer;
+    background-color: #b9b6ac;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(18, 85, 74);
+    letter-spacing: 2px;
+    opacity: 90px;
+}
+
+/*-----------------Our Service Section-----------------*/
+
+#our-service-section {
+    margin-top: 300px;
+}
+
+#our-service-section .service-content{
+    text-align: center;
+}
+
+#our-service-section .service-content p{
+    font-weight: bold;
+    color: green;
+}
+
+#our-service-section .service-content h1{
+    font-size: 40px;
+}
+
+#our-service-section .service-content .diferent-services{
+    display: flex;
+    flex-direction: row;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-img{
+    width: 400px;
+    height: 400px;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-text{
+    width: 300px;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-text p{
+    color: rgb(122, 122, 122);
+    text-align: start;
+}
+
