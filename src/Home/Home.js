@@ -5,6 +5,7 @@ import heroimage from '../Access/hero-img.png';
 import stockchecking from '../Access/stock-checking.png';
 import loading from '../Access/loading.png';
 import aircargo from '../Access/air-cargo.png';
+import logo01 from '../Access/logo01.png';
 
 function Home() {
     const [selectedDate, setSelectedDate] = React.useState(null);
@@ -160,6 +161,13 @@ function Home() {
                         <p class="puls">+</p>
                     </div>
                 </div>
+            </section>
+            <section id = "client-logo-section">
+                <img src={logo01} alt="Background" />
+                <img src={logo01} alt="Background" />
+                <img src={logo01} alt="Background" />
+                <img src={logo01} alt="Background" />
+                <img src={logo01} alt="Background" />
             </section>
         </div>
     );

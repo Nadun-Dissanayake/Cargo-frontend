@@ -485,4 +485,20 @@
     
 }
 
+/*-----------------States Section-----------------*/
+
+#client-logo-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100PX;
+    width: 1500px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+#client-logo-section img{
+    width: 200px;
+
+}
+
 
