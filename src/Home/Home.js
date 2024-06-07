@@ -91,12 +91,6 @@ function Home() {
                         <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#5f6368"><path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/></svg>
                     </div>
                     <div>
-                        <div>
-
-                        </div>
-                        <div>
-
-                        </div>
                     </div>
                 </div>
             </section>
@@ -127,6 +121,43 @@ function Home() {
                     <div class="state-top">
                         <p class="number">600</p>
                         <p class="text">Statisfied Client</p>
+                    </div>
+                </div>
+            </section>
+            <section id="choose-us-section">
+                <div class="trusted-client">
+                    <h1>TRUSTED CLIENTS</h1>
+                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
+                    <div class="message">
+                        <p>Integer congue elit non semper laoreet sed lectus orci posuer nist tempor sefelis ao mauris. Pelentesque inyd urna. Integer vitao felis vel magna pesu du vestibulum. Nam rutrum congue diam. Aliquam malesuada maurs etug met Curabitur loreet convallis nisal pellentesque bibendum.</p>
+                    </div>
+                    <div class="name">
+                        <h1>JOHN DEO</h1>
+                        <p>Managing Otector</p>
+                    </div>
+                </div>
+                <div class="why-choose-us">
+                    <h1>WHY CHOOSE US</h1>
+                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
+                    <hr/>
+                    <div class="feature">
+                        <p class="point">Dui ac hendrerit elementum quam ipsum auctor lorem</p>
+                        <p class="puls">+</p>
+                    </div>
+                    <hr/>
+                    <div class="feature">
+                        <p class="point">Mauris vel magna a est lobortis volutpat</p>
+                        <p class="puls">+</p>
+                    </div>
+                    <hr/>
+                    <div class="feature">
+                        <p class="point">Sed bibendum ornare lorem mauris feugiat suspendisse neque</p>
+                        <p class="puls">+</p>
+                    </div>
+                    <hr/>
+                    <div class="feature">
+                        <p class="point">Nulla scelerisque dul hendrerit elementum quam</p>
+                        <p class="puls">+</p>
                     </div>
                 </div>
             </section>
