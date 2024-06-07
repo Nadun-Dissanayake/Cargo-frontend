@@ -100,6 +100,36 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <section id="state-section">
+                <div class="state-bottom">
+                    <p>890</p>
+                    <div class="state-top">
+                        <p class="number">890</p>
+                        <p class="text">Delevered pacakees</p>
+                    </div>
+                </div>
+                <div class="state-bottom">
+                    <p>137</p>
+                    <div class="state-top">
+                        <p class="number">137</p>
+                        <p class="text">Countries Covered</p>
+                    </div>
+                </div>
+                <div class="state-bottom">
+                    <p>740</p>
+                    <div class="state-top">
+                        <p class="number">740</p>
+                        <p class="text">Tons of Goods</p>
+                    </div>
+                </div>
+                <div class="state-bottom">
+                    <p>600</p>
+                    <div class="state-top">
+                        <p class="number">600</p>
+                        <p class="text">Statisfied Client</p>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }

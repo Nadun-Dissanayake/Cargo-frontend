@@ -322,3 +322,56 @@
 
 }
 
+/*-----------------States Section-----------------*/
+
+#state-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 1500px;
+    margin-left: 80px;
+}
+
+
+#state-section .state-bottom{
+    position: relative;
+}
+
+#state-section .state-bottom p{
+    font-size: 150px;
+    font-weight: 900;
+    color: white;
+    text-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+#state-section .state-bottom .state-top {
+    display: flex;
+    flex-direction: row;
+}
+
+#state-section .state-bottom .state-top .number{
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(0, 0, 146);
+    text-shadow: -10px 10px 20px rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 140px;
+}
+
+#state-section .state-bottom .state-top .text{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 146);
+    text-shadow: -10px 10px 20px rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 210px;
+    left: 130px;
+    width: 90px;
+    line-height: 1.5cap;
+    text-align: left;
+}
+
+
+
